@@ -5,17 +5,17 @@ export const WORKFLOW_ID =
 
 export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
-export const STARTER_PROMPTS: StartScreenPrompt[] = [
-  {
-    label: "What can you do?",
-    prompt: "What can you do?",
-    icon: "circle-question",
-  },
-];
+// export const STARTER_PROMPTS: StartScreenPrompt[] = [
+//   {
+//     label: "What can you do?",
+//     prompt: "What can you do?",
+//     icon: "circle-question",
+//   },
+// ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Upload the profile and include the Salesforce Profile ID in your prompt";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Endeavor Profile Uploader";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
